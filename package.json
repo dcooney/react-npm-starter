@@ -1,0 +1,72 @@
+{
+  "name": "react-npm-starter",
+  "version": "0.1.0",
+  "description": "A starter project for quickly publishing NPM packages with React and Typescript.",
+  "homepage": "https://dcooney.github.io/react-npm-starter/",
+  "source": "src/lib/Example.tsx",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/lib/example.d.ts",
+  "overrides": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "microbundle watch",
+    "build": "rm -rf dist && microbundle",
+    "build:docs": "BUILD_PATH='./docs' react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.19",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "microbundle": "^0.15.1",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "web-vitals": "^2.1.4"
+  },
+  "author": "<Your Name>",
+  "license": "MIT",
+  "keywords": [
+    "<Add Keyword>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dcooney/react-use-arrows.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dcooney/react-use-arrows/issues"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

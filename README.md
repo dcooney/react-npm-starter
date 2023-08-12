@@ -36,4 +36,21 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 ## Project Directories
 
+## Testing
+
+During the development phase, testing the functionality of your NPM package is easy as your importing the package locally and fixing issues as they arise.
+
+This works great for development, however it doesn't confirm the package will work as expect when being distrubuted via NPM.
+
+To get around this:
+
+1. Run `npm pack` from the project directory to create a tarball (.tgz) of the package.
+2. Inside the project directory, create an `example` directory.
+
+```
+"dependencies": {
+    "react-npm-starter": "file:./react-npm-starter-1.0.0.tgz"
+},
+```
+
 ## Publish Package to NPM

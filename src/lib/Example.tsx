@@ -1,3 +1,5 @@
+import './example.css'
+
 // Example props interface.
 interface useExampleProps {
    label?: string
@@ -14,10 +16,7 @@ export default function Example(props: useExampleProps | null = null) {
       return null
    }
    return (
-      <a
-         href={url}
-         className="inline-block bg-gray-50 hover:bg-gray-100 font-semibold rounded-md border px-4 py-2"
-      >
+      <a href={url} className="button-example">
          {label}
       </a>
    )

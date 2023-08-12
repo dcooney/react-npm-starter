@@ -8,6 +8,8 @@
 
 # testing
 /coverage
+/example
+*.tgz
 
 # production
 /build

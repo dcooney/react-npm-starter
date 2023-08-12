@@ -1,6 +1,6 @@
 {
   "name": "react-npm-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A starter project for quickly publishing NPM packages with React and Typescript.",
   "homepage": "https://dcooney.github.io/react-npm-starter/",
   "source": "src/lib/Example.tsx",

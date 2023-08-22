@@ -35,8 +35,8 @@ From the project directory, you can run following script with `yarn` or `npm`:
 | Script                | Usage                                                                                                                          |
 |---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
 | `npm run start`       | Runs the demo app in the development mode at [http://localhost:3000](http://localhost:3000).      |
-| `npm run build`       | Exports a production version of the package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle).  |
-| `npm run build:docs`  | Exports the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).      |
+| `npm run build`       | Builds a production version of the package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle).  |
+| `npm run build:docs`  | Builds the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).      |
 
 ## Development
 

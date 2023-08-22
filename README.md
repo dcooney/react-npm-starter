@@ -34,9 +34,9 @@ From the project directory, you can run:
 
 | Script                | Usage                                                                                                                          |
 |---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run start`       | Runs the demo app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser      |
-| `npm run build`       | Builds a production export of your package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle)  |
-| `npm run build:docs`  | Builds a production demo app and exports to the `docs` folder for deployment to [Github Pages](https://pages.github.com/)      |
+| `npm run start`       | Runs the demo app in the development mode.\Open [http://localhost:3000](http://localhost:3000) to view it in your browser      |
+| `npm run build`       | Exports a production version of the package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle)  |
+| `npm run build:docs`  | Exports the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/)      |
 
 ## Development
 

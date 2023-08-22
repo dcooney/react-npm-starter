@@ -1,21 +1,10 @@
 .button-example {
-   display: inline-block;
-   background-color: #eaeff6;
-   border: 1px solid #d8dfe9;
-   color: #3c4147;
-   padding: 10px 14px;
-   line-height: 1;
-   border-radius: 3px;
-   font-size: 1rem;
-   font-weight: 600;
-   text-decoration: none;
-   text-align: center;
-   cursor: pointer;
+   @apply rounded-[3px] leading-none text-base inline-block bg-slate-100 border border-slate-200 text-slate-700 no-underline cursor-pointer px-4 py-3 font-semibold;
 }
 
-.button-example:hover,
+.button-example:hover {
+   @apply bg-slate-700 text-slate-100 border-slate-700 no-underline;
+}
 .button-example:focus {
-   background-color: #3c4147;
-   border: 1px solid #61676f;
-   color: #eaeff6;
+   @apply bg-slate-800 text-slate-100 border-slate-800;
 }

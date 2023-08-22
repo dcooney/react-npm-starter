@@ -30,25 +30,13 @@ yarn run start
 
 ## Available Scripts
 
-In the project directory, you can run:
+From the project directory, you can run:
 
-### `npm start` or `yarn start`
-
-Runs the demo app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-This is how you will test and develop your NPM package/module prior to release.
-
-### `npm run build` or `yarn run build`
-
-Builds a production export of your package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle).
-
-### `npm run build:docs` or `yarn run build:docs`
-
-Builds a production demo app and exports to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).
-
-### `npm run eject`
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project. [More Details ➚](https://create-react-app.dev/docs/available-scripts/#npm-run-eject)
+| Script                | Usage                                                                                                                          |
+|---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run start`       | Runs the demo app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser      |
+| `npm run build`       | Builds a production export of your package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle)  |
+| `npm run build:docs`  | Builds a production demo app and exports to the `docs` folder for deployment to [Github Pages](https://pages.github.com/)      |
 
 ## Development
 

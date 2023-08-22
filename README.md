@@ -30,7 +30,7 @@ yarn run start
 
 ## Available Scripts
 
-From the project directory, you can run:
+From the project directory, you can run following script with `yarn` or `npm`:
 
 | Script                | Usage                                                                                                                          |
 |---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
@@ -74,7 +74,7 @@ npm i file:<your-package-name>.tgz
 
 ⚠️ Notice the `file:` in the dependency path. It is critical that you reference the absolute path to the `.tgz` export.
 
-After the package has been installed you can `import` the package into the app as you would any other NPM package and begin testing.
+After the package has been installed you can `import` the package into the app as you would any other npm package and begin testing.
 
 ```jsx
 import Example from 'example-package'

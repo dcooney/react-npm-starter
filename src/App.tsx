@@ -12,7 +12,10 @@ function App() {
                Typescript.
             </h2>
          </header>
-         <Example label="Example" url="https://example.com" />
+         <div className="flex gap-2">
+            <Example label="Link" url="https://example.com" />
+            <Example label="Form Button" />
+         </div>
       </div>
    )
 }

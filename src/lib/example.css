@@ -1,7 +1,6 @@
 .button-example {
-   @apply rounded-[3px] leading-none text-base inline-block bg-slate-100 border border-slate-200 text-slate-700 no-underline cursor-pointer px-4 py-3 font-semibold;
+   @apply rounded-[3px] leading-none text-base inline-block bg-slate-100 border border-slate-200 text-slate-700 no-underline cursor-pointer px-5 py-3 font-semibold;
 }
-
 .button-example:hover {
    @apply bg-slate-700 text-slate-100 border-slate-700 no-underline;
 }

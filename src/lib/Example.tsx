@@ -12,12 +12,20 @@ interface useExampleProps {
 export default function Example(props: useExampleProps | null = null) {
    const {label, url} = props || {}
 
-   if (!label || !url) {
+   if (!label) {
       return null
    }
    return (
-      <a href={url} className="button-example">
-         {label}
-      </a>
+      <>
+         {url ? (
+            <a href={url} className="button-example">
+               {label}
+            </a>
+         ) : (
+            <button type="button" className="button-example">
+               {label}
+            </button>
+         )}
+      </>
    )
 }

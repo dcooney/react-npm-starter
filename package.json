@@ -1,7 +1,7 @@
 {
   "name": "react-npm-starter",
   "version": "1.0.0",
-  "description": "A starter project for quickly publishing NPM packages with React and Typescript.",
+  "description": "A starter project for publishing NPM packages with React and Typescript.",
   "homepage": "https://dcooney.github.io/react-npm-starter/",
   "source": "src/lib/Example.tsx",
   "main": "dist/index.js",
@@ -39,17 +39,20 @@
     "typescript": "^5.1.6",
     "web-vitals": "^2.1.4"
   },
-  "author": "<Your Name>",
+  "author": "Darren Cooney",
   "license": "MIT",
   "keywords": [
-    "<Add Keyword>"
+    "npm",
+    "npm starter",
+    "react",
+    "typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dcooney/react-use-arrows.git"
+    "url": "git+ssh://git@github.com/dcooney/react-npm-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/dcooney/react-use-arrows/issues"
+    "url": "https://github.com/dcooney/react-npm-starter/issues"
   },
   "eslintConfig": {
     "extends": [

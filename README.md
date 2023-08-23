@@ -1,10 +1,12 @@
 # React NPM Starter
 
-A starter project for publishing [NPM](https://www.npmjs.com/) packages with React and Typescript.
+A starter project for publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
 
-This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [TailwindCSS](https://tailwindcss.com/) for rapid development. [Microbundle](https://github.com/developit/microbundle) is used for code bundling prior to distribution on NPM.
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [TailwindCSS](https://tailwindcss.com/) for rapid development. [Microbundle](https://github.com/developit/microbundle) is used for code bundling prior to distribution on npm.
 
 ## Getting Started
+
+### Installation
 
 Clone the repo to your local environment.
 
@@ -20,13 +22,33 @@ npm install
 yarn install
 ```
 
-Start the local server.
+Start the local development server.
 
 ```bash
 npm run start
 # or
 yarn run start
 ```
+
+### Create Component
+
+After the project installation is complete and the server is running as expected, it's time to start developing your component.
+
+#### Example Component
+
+Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we are intending to distribute on npm which happens to be a simple HTML button.
+
+You can rename or create a new component for your use. Either way, this will be the main component for distribution so go ahead an add your logic here.
+
+#### Testing Component Functionality
+
+Locate the `App.tsx` component found in `src` directory of the project. This is the file we can use for testing the functionality of our component.
+
+You will notice that in `App.tsx` we are importing the `Example` component and passing various props to the component. You this as an examplar for your testing.
+
+#### Package.json
+
+The next step is to update the details found in `package.json` to reference your specific package.
 
 ## Available Scripts
 
@@ -42,9 +64,19 @@ From the project directory, you can run following script with `yarn` or `npm`:
 
 The `src` directory contains the source for the demo application and the
 
+## Publish Package to NPM
+
+Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an npm account.
+
+Here are a few links to read through before publishing your package.
+
+- [Unscoped Public Package](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
+- [Scoped Public Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+- [Private Package](https://docs.npmjs.com/creating-and-publishing-private-packages)
+
 ## Testing
 
-When developing a React package for distribution on NPM, you must confirm that the package is compatible for use in other applications.
+When developing a React package for distribution on npm, you must confirm that the package is compatible for use in other applications.
 
 [NPM Link](https://docs.npmjs.com/cli/v9/commands/npm-link) creates a global symlink for a dependency. A symlink, short for symbolic link, is a shortcut that points to another directory or file on your system.
 
@@ -52,7 +84,7 @@ NPM Link allows for local development and testing of components without having t
 
 ### Alternative Testing
 
-Another method of testing an NPM package is to export the package as a Tarball(`.tgz`) and import it into another project as a dependency using [NPM Pack](https://docs.npmjs.com/cli/v7/commands/npm-pack).
+Another method of testing an npm package is to export the package as a Tarball(`.tgz`) and import it into another project as a dependency using [NPM Pack](https://docs.npmjs.com/cli/v7/commands/npm-pack).
 
 This testing method provides the most realistic experience with regards to how a package will be installed and used in a real-world application.
 
@@ -79,13 +111,3 @@ After the package has been installed you can `import` the package into the app a
 ```jsx
 import Example from 'example-package'
 ```
-
-## Publish Package to NPM
-
-Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an npm account.
-
-Here are a few links to read through before publishing your package.
-
-- [Unscoped Public Package](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
-- [Scoped Public Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
-- [Private Package](https://docs.npmjs.com/creating-and-publishing-private-packages)

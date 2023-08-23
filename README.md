@@ -48,7 +48,9 @@ You will notice that in `App.tsx` we are importing the `Example` component and p
 
 #### Package.json
 
-The next step is to update the details found in `package.json` to reference your specific package.
+The next step is to update the project details found in `package.json` to reference your specific project.
+
+// TODO: Add details about which fields require editing.
 
 #### Publish Package to NPM
 

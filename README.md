@@ -41,9 +41,9 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 1. Select a different name for the component.
 2. Publish as a [Scoped Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages).
 
-### Create Component
+### Create Package
 
-After the project installation is complete and the server is running as expected, it's time to start developing your component.
+After the project setup is complete and you've selected your package name, it's time to start developing the package.
 
 #### Example Component
 

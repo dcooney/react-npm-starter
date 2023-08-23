@@ -50,6 +50,16 @@ You will notice that in `App.tsx` we are importing the `Example` component and p
 
 The next step is to update the details found in `package.json` to reference your specific package.
 
+#### Publish Package to NPM
+
+Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an npm account.
+
+Here are a few links to read through before publishing your package.
+
+- [Unscoped Public Package](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
+- [Scoped Public Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+- [Private Package](https://docs.npmjs.com/creating-and-publishing-private-packages)
+
 ## Available Scripts
 
 From the project directory, you can run following script with `yarn` or `npm`:
@@ -59,20 +69,6 @@ From the project directory, you can run following script with `yarn` or `npm`:
 | `npm run start`       | Runs the demo app in the development mode at [http://localhost:3000](http://localhost:3000).      |
 | `npm run build`       | Builds a production version of the package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle).  |
 | `npm run build:docs`  | Builds the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).      |
-
-## Development
-
-The `src` directory contains the source for the demo application and the
-
-## Publish Package to NPM
-
-Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an npm account.
-
-Here are a few links to read through before publishing your package.
-
-- [Unscoped Public Package](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
-- [Scoped Public Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
-- [Private Package](https://docs.npmjs.com/creating-and-publishing-private-packages)
 
 ## Testing
 

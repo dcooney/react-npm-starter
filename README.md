@@ -2,6 +2,8 @@
 
 A starter project for publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
 
+Publishing packages on npm can be time consuming and confusing
+
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [TailwindCSS](https://tailwindcss.com/) for rapid development. [Microbundle](https://github.com/developit/microbundle) is used for code bundling prior to distribution on npm.
 
 ## Getting Started
@@ -29,6 +31,15 @@ npm run start
 # or
 yarn run start
 ```
+
+### Package Naming
+
+The first thing you need to do is to choose a name for the package. Your package needs to have a unique name and you should choose a name that has not been used already.
+
+Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there isn't an exact match to the name you are intending to use or you will need to do one of the following:
+
+1. Select a different name for the component.
+2. Publish as a [Scoped Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages).
 
 ### Create Component
 

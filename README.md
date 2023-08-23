@@ -2,7 +2,7 @@
 
 A starter project for publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
 
-Publishing packages on npm can be time consuming and confusing
+Publishing packages on npm can be time consuming and confusing, this starter intends to streamline package development by bundling everything you need to start publishing packages into a single resource.
 
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [TailwindCSS](https://tailwindcss.com/) for rapid development. [Microbundle](https://github.com/developit/microbundle) is used for code bundling prior to distribution on npm.
 

@@ -47,21 +47,33 @@ After the project setup is complete and you've selected your package name, it's 
 
 #### Example Component
 
-Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we are intending to distribute on npm which happens to be a simple HTML button.
+Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we are intending to distribute on npm which so happens to be a simple HTML button component.
 
-You can rename or create a new component for your use. Either way, this will be the main component for distribution so go ahead an add your logic here.
+You can go ahead and either rename or create a new component. Either way, this will be the main component for distribution so go ahead an add your logic here.
 
 #### Testing Component Functionality
 
-Locate the `App.tsx` component found in `src` directory of the project. This is the file we can use for testing the functionality of our component.
+Locate the `App.tsx` component found in `src` directory of the project. This is the file used for testing the functionality of our distributed component.
 
 You will notice that in `App.tsx` we are importing the `Example` component and passing various props to the component. You this as an examplar for your testing.
 
 #### Package.json
 
-The next step is to update the project details found in `package.json` to reference your specific project.
+The next step is to update the project config found in `package.json` to reference your specific project.
 
-// TODO: Add details about which fields require editing.
+It's recommended that you change the following fields:
+
+|         Field  | Description                               |
+|--------------: |------------------------------------------ |
+| `name`         | The name of the package.                  |
+| `version`      | The package version.                      |
+| `description`  | Short description of the package.         |
+| `main`         | The primary entry point to the package.   |
+| `types`        | Path to compiled TypeScript definitions.  |
+| `author`       | Package author.                           |
+| `keywords`     | Help people discover the package.         |
+| `repository`   | The GIT repository where the code lives.  |
+| `bugs`         | URL to the project's issue tracker.       |
 
 #### Publish Package to NPM
 

@@ -2,6 +2,10 @@ import React from 'react'
 import Example from './lib/Example'
 
 function App() {
+   function hanlder() {
+      alert('form button clicked')
+   }
+
    return (
       <div className="container">
          <header className="py-5 border-b mb-5">
@@ -13,7 +17,7 @@ function App() {
             </h2>
          </header>
          <div className="flex gap-2">
-            <Example label="Link" url="https://example.com" />
+            <Example label="Link Button" url="https://github.com/dcooney" />
             <Example label="Form Button" />
          </div>
       </div>

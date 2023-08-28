@@ -32,32 +32,32 @@ npm run start
 yarn run start
 ```
 
-## Package Naming
+### Package Naming
 
-The first thing you need to do is to choose a name for the package. Your package needs to have a unique name and you should choose a name that has not been used already.
+The first thing you need to do is to choose a **unique** name for the package.
 
 Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there isn't an exact match to the name you are intending to use or you will need to do one of the following:
 
 1. Select a different name for the component.
 2. Publish as a [Scoped Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages).
 
-## Create Package
+### Creating Package
 
-After the project setup is complete and you've selected your package name, it's time to start developing the package.
+After the project setup is complete and you've selected a package name, it's time to start developing the package.
 
-### Example Component
+#### Example Component
 
-Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we are intending to distribute on npm which so happens to be a simple HTML button component.
+Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we are intending to distribute on npm, happens to be a simple HTML button component.
 
-You can go ahead and either rename or create a new component. Either way, this will be the main component for distribution so go ahead an add your logic here.
+You can go ahead and either rename or create a new component. Either way, this will be the main component for distribution so go add your logic to this file entry point.
 
-### Testing Component Functionality
+#### Test Component Functionality
 
-Locate the `App.tsx` component found in `src` directory of the project. This is the file used for testing the functionality of our distributed component.
+Locate the `App.tsx` component found in `src` directory of the project. This is the file used for testing the functionality of our distributed package.
 
-You will notice that in `App.tsx` we are importing the `Example` component and passing various props to the component. You this as an examplar for your testing.
+You will notice that in `App.tsx` we are importing the `Example` component and passing various props to the component. Use this as an examplar for testing.
 
-### Package.json
+#### Package.json
 
 The next step is to update the project config found in `package.json` to reference your specific project.
 
@@ -75,7 +75,7 @@ It's recommended that you change the following fields:
 | `repository`   | The GIT repository where the code lives.  |
 | `bugs`         | URL to the project's issue tracker.       |
 
-### Publish Package to NPM
+## Publish Package to NPM
 
 Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an npm account.
 
@@ -87,7 +87,7 @@ Here are a few links to read through before publishing your package.
 
 ## Available Scripts
 
-From the project directory, you can run following script with `yarn` or `npm`:
+From the project directory, you can run following scripts with `yarn` or `npm`:
 
 | Script                | Usage                                                                                                                          |
 |---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
@@ -95,40 +95,6 @@ From the project directory, you can run following script with `yarn` or `npm`:
 | `npm run build`       | Builds a production version of the package to the `dist` folder using [Microbundle](https://github.com/developit/microbundle).  |
 | `npm run build:docs`  | Builds the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).      |
 
-## Testing
+## Helpful Links
 
-When developing a React package for distribution on npm, you must confirm that the package is compatible for use in other applications.
-
-[NPM Link](https://docs.npmjs.com/cli/v9/commands/npm-link) creates a global symlink for a dependency. A symlink, short for symbolic link, is a shortcut that points to another directory or file on your system.
-
-NPM Link allows for local development and testing of components without having to continuously rebuild and publish the dependent package.
-
-### Alternative Testing
-
-Another method of testing an npm package is to export the package as a Tarball(`.tgz`) and import it into another project as a dependency using [NPM Pack](https://docs.npmjs.com/cli/v7/commands/npm-pack).
-
-This testing method provides the most realistic experience with regards to how a package will be installed and used in a real-world application.
-
-#### Export Package
-
-Run `npm pack` from the project root to create a `.tgz` export.
-
-**Note**: The name of the exported file will be `<your-package-name>-<version>.tgz`
-
-#### Install Package
-
-Copy the generated `.tgz` file to the root of another project or create a new [CRA project](https://create-react-app.dev/docs/getting-started#quick-start) for testing purposes.
-
-Open your terminal in the test project and run the following command to install the package as a dependency in `package.json`.
-
-```bash
-npm i file:<your-package-name>.tgz
-```
-
-⚠️ Notice the `file:` in the dependency path. It is critical that you reference the absolute path to the `.tgz` export.
-
-After the package has been installed you can `import` the package into the app as you would any other npm package and begin testing.
-
-```jsx
-import Example from 'example-package'
-```
+- [Component Testing](https://github.com/dcooney/react-npm-starter/wiki/Testing)

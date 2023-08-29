@@ -55,7 +55,7 @@ You can go ahead and either rename or create a new component. Either way, this w
 
 Locate the `App.tsx` component found in `src` directory of the project. This is the file used for testing the functionality of our distributed package.
 
-You will notice that in `App.tsx` we are importing the `Example` component and passing various props to the component. Use this as an examplar for testing.
+You will notice that in `App.tsx` we are importing the `Example` component and passing various props to the component. Use this as an example for testing.
 
 #### Package.json
 
@@ -87,7 +87,7 @@ Here are a few links to read through before publishing your package.
 
 ## Available Scripts
 
-From the project directory, you can run following scripts with `yarn` or `npm`:
+From the project directory, you can run the following scripts with `yarn` or `npm`:
 
 | Script                | Usage                                                                                                                          |
 |---------------------- |------------------------------------------------------------------------------------------------------------------------------- |

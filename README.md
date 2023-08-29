@@ -68,11 +68,11 @@ It's recommended that you change the following fields:
 | `name`         | The name of the package.                  |
 | `version`      | The package version.                      |
 | `description`  | Short description of the package.         |
-| `main`         | The primary entry point to the package.   |
+| `main`         | Primary entry point to the package.   |
 | `types`        | Path to compiled TypeScript definitions.  |
 | `author`       | Package author.                           |
 | `keywords`     | Help people discover the package.         |
-| `repository`   | The GIT repository where the code lives.  |
+| `repository`   | GIT repository where the code lives.  |
 | `bugs`         | URL to the project's issue tracker.       |
 
 ## Publish Package to NPM

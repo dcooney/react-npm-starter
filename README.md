@@ -36,7 +36,7 @@ yarn run start
 
 The first thing you need to do is to choose a **unique** name for the package.
 
-Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there isn't an exact match to the name you are intending to use or you will need to do one of the following:
+Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there isn't an exact match to the name you intend to use or you will need to do one of the following:
 
 1. Select a different name for the component.
 2. Publish as a [Scoped Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages).
@@ -47,7 +47,7 @@ After the project setup is complete and you've selected a package name, it's tim
 
 #### Example Component
 
-Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we are intending to distribute on npm, happens to be a simple HTML button component.
+Locate the `Example.tsx` component found in `src/lib` directory of the project. This is the component we intend to distribute on npm, which happens to be a simple HTML button component.
 
 You can go ahead and either rename or create a new component. Either way, this will be the main component for distribution so go add your logic to this file entry point.
 

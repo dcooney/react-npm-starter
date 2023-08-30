@@ -59,9 +59,7 @@ Go ahead and rename this component or create an entirely new component. This wil
 
 #### Testing
 
-The `App.tsx` file found in the root of the `src` directory is used for testing the functionality of the distributed component/package.
-
-Modify this file to import your component as you would any other React component and continue building out the package.
+With the local development server running, locate the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
 
 Read more about [Package Testing](#compiling) below.
 

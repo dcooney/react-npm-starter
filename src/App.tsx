@@ -2,10 +2,6 @@ import React from 'react'
 import Example from './lib/Example'
 
 function App() {
-   function hanlder() {
-      alert('form button clicked')
-   }
-
    return (
       <div className="container">
          <header className="py-5 border-b mb-5">

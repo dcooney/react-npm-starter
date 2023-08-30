@@ -10,11 +10,15 @@ interface useExampleProps {
  * Example Component.
  */
 export default function Example(props: useExampleProps | null = null) {
-   const {label, url} = props || {}
+   const {label = 'Learn More', url} = props || {}
 
-   if (!label) {
-      return null
+   /**
+    * Example click handler.
+    */
+   function clickHandler() {
+      alert('form button clicked') // eslint-disable-line no-alert
    }
+
    return (
       <>
          {url ? (
@@ -22,7 +26,11 @@ export default function Example(props: useExampleProps | null = null) {
                {label}
             </a>
          ) : (
-            <button type="button" className="button-example">
+            <button
+               type="button"
+               className="button-example"
+               onClick={() => clickHandler()}
+            >
                {label}
             </button>
          )}

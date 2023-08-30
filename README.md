@@ -28,7 +28,7 @@ npm run start
 
 ## Available Scripts
 
-From the project directory, you can run the following scripts with `npm` or `yarn`:
+From the project directory, you can run the following scripts with `npm` or `yarn`.
 
 | Script                | Usage                                                                                                                          |
 |---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ It's recommended that you change the following fields:
 
 ## Publish Package to NPM
 
-Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an npm account.
+Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an [npm account](https://www.npmjs.com/signup).
 
 Here are a few links to read through before publishing your package.
 

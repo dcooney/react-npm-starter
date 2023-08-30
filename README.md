@@ -2,7 +2,7 @@
 
 A starter project for rapidly publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
 
-Publishing packages on npm can be time-consuming and confusing. This starter project is intended to help streamline individual package development by bundling the dependencies you need to start publishing packages into a single resource.
+This project is intended to help streamline individual package development by bundling the dependencies required to start publishing packages into a single resource.
 
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Tailwind CSS](https://tailwindcss.com/) for rapid development. [Microbundle](https://github.com/developit/microbundle) is used for code bundling prior to distribution on npm.
 
@@ -38,9 +38,9 @@ From the project directory, you can run the following scripts with `npm` or `yar
 
 ## Getting Started
 
-After the project setup is complete, it's time to choose a name and start developing the package.
+After the initial project setup is complete and the development server is up and running, it's time to choose a name and start developing the package.
 
-**Note**: Package source files are located in the `src/lib` directory of the project.
+**Note**: All package source files are located in the `src/lib` directory of the project.
 
 ### Package Naming
 
@@ -53,9 +53,7 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 
 ### Example Package
 
-In the `src/lib` directory of the project is the `Example` component that is included with this starter.
-
-The `Example.tsx` file is a simple HTML button component that is intended to be distributed as a package on npm.
+In the `src/lib` directory of the project is the `Example` component that is included with this starter. This component is a simple HTML button component that is intended to be distributed as a package on npm.
 
 Go ahead and rename this component or create an entirely new component. This will be the main component used for distribution so add component logic and functionality to this entry point.
 
@@ -75,19 +73,19 @@ At minimum you must update the following fields:
 
 | Field          | Description                                |
 |--------------: |:------------------------------------------ |
-| `name`         | The name of the package.                   |
-| `version`      | The package version.                       |
+| `name`         | Name of the package.                       |
+| `version`      | Package version.                           |
 | `description`  | Short description of the package.          |
 | `source`       | Path to the primary entry point of the package.   |
 | `types`        | Path to compiled TypeScript definitions.   |
 | `author`       | Package author.                            |
 | `keywords`     | Help people discover the package.          |
 | `repository`   | GIT repository where the code lives.       |
-| `bugs`         | URL to the project's issue tracker.        |
+| `bugs`         | URL to the project issue tracker.          |
 
 ## Compile Package
 
-When your ready to begin [testing the distrubuted package](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to begin fully testing the implementation.
+When your ready to begin [testing the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to begin fully testing the implementation.
 
 [Microbundle](https://github.com/developit/microbundle) is used for code bundling when running a `build`.
 

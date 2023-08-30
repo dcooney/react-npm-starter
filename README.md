@@ -34,21 +34,13 @@ From the project directory, you can run the following scripts with `npm` or `yar
 |----------------------: | :------------------------------------------------------------------------------------------------------------------------------- |
 | `npm run start`        | Runs the demo app in development mode @ [http://localhost:3000](http://localhost:3000).      |
 | `npm run build`        | Builds a production version of the package to the `dist` directory with [Microbundle](https://github.com/developit/microbundle).  |
-| `npm run build:docs`   | Builds the demo app to the `docs` directory for deployment to [Github Pages](https://pages.github.com/).      |
-
-## Project Directory Structure
-
-| Folder      | Description                |
-|-----------: |:--------------------------- |
-| `src`       | Demo app source files.     |
-| `src/lib`   | All package source files.  |
-| `public`    | Local website frontend.    |
+| `npm run build:docs`   | Builds the demo app to the `docs` directory for deployment to [Github Pages](<https://pages.github.c>
 
 ## Getting Started
 
-After the project setup is complete, it's time to select a package name and start developing the package.
+After the project setup is complete, it's time to choose a name and start developing the package.
 
-**Note**: Package source files are located in the `src/lib` directory.
+**Note**: Package source files are located in the `src/lib` directory of the project.
 
 ### Package Naming
 
@@ -59,11 +51,13 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 1. Select a different name for the component.
 2. Publish as a [Scoped Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages).
 
-### Example
+### Example Package
 
-In the `src/lib` directory of the project is an `Example` component. This is the component we intend to distribute as a package on npm, which happens to be a simple HTML button component.
+In the `src/lib` directory of the project is the `Example` component that is included with this starter.
 
-Go ahead and rename this component or create an entirely new component. Either way, this will be the main component used for distribution so add component logic and functions to this entry point.
+The `Example.tsx` file is a simple HTML button component that is intended to be distributed as a package on npm.
+
+Go ahead and rename this component or create an entirely new component. Either way, this will be the main component used for distribution so add component logic and functionality to this entry point.
 
 #### Testing
 

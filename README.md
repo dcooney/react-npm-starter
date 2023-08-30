@@ -63,7 +63,7 @@ The `App.tsx` file found in the root of the `src` directory is used for testing 
 
 Modify this file to import your component as you would any other React component.
 
-Read more about [Package Testing](https://github.com/dcooney/react-npm-starter/wiki/Testing).
+Read more about [Package Testing](#compile-package) below.
 
 ### Package.json
 

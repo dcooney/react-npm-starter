@@ -79,7 +79,7 @@ Update the project config found in `package.json` to reference your project spec
 
 At minimum you must update the following fields:
 
-|         Field  | Description                               |
+| Field          | Description                               |
 |--------------: |------------------------------------------ |
 | `name`         | The name of the package.                  |
 | `version`      | The package version.                      |

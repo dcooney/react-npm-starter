@@ -38,7 +38,7 @@ From the project directory, you can run the following scripts with `npm` or `yar
 
 ## Getting Started
 
-After the initial project setup is complete and the development server is up and running, it's time to choose a name and start developing the package.
+After the initial project setup is complete and the local development server is up and running, it's time to choose a name and start developing the package.
 
 **Note**: All package source files are located in the `src/lib` directory of the project.
 
@@ -61,9 +61,9 @@ Go ahead and rename this component or create an entirely new component. This wil
 
 Testing your package locally involves importing the component directly into the demo application.
 
-With the local development server running, locate the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
+With the local development server running, open the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
 
-Read more about [Package Testing](#compiling) below.
+Distrubuted npm packages require futher, more robust testing, so read more about [Package Testing](#compiling) below.
 
 ### Package.json
 
@@ -88,6 +88,8 @@ At minimum you must update the following fields:
 When your ready to [test the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to begin testing the implementation.
 
 [Microbundle](https://github.com/developit/microbundle) is used for code bundling when running a `build`.
+
+&rarr; [Testing Wiki](https://github.com/dcooney/react-npm-starter/wiki/Testing)
 
 **Note**: The `dist` directory is not comitted to the GIT repo.
 

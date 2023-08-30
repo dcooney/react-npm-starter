@@ -57,11 +57,11 @@ In the `src/lib` directory of the project is an `Example` component that is incl
 
 Go ahead and rename this component or create an entirely new component. This will be the main component used for distribution, so add all the component logic and functionality to this entry point.
 
-#### Testing
+#### Local Testing
 
-With the local development server running, locate the `App.tsx` file found in the root of the `src` directory.
+Testing your package locally involves importing the component directly into the demo application.
 
-Modify `App.tsx` accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
+With the local development server running, locate the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
 
 Read more about [Package Testing](#compiling) below.
 

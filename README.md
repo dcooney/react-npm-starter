@@ -57,7 +57,7 @@ In the `src/lib` directory of the project is the `Example` component that is inc
 
 The `Example.tsx` file is a simple HTML button component that is intended to be distributed as a package on npm.
 
-Go ahead and rename this component or create an entirely new component. Either way, this will be the main component used for distribution so add component logic and functionality to this entry point.
+Go ahead and rename this component or create an entirely new component. This will be the main component used for distribution so add component logic and functionality to this entry point.
 
 #### Testing
 

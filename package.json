@@ -53,12 +53,6 @@
   "bugs": {
     "url": "https://github.com/dcooney/react-npm-starter/issues"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",

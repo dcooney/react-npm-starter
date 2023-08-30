@@ -16,7 +16,7 @@ export default function Example(props: useExampleProps | null = null) {
     * Example click handler.
     */
    function clickHandler() {
-      alert('form button clicked') // eslint-disable-line no-alert
+      alert('form button clicked')
    }
 
    return (

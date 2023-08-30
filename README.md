@@ -53,7 +53,7 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 
 In the `src/lib` directory of the project is an example component. This is the component we intend to distribute on npm, which happens to be a simple HTML button component.
 
-You can rename this component or create an entirely new component. Either way, this will be the main component for distribution so go add your logic to this file entry point.
+You can rename this component or create an entirely new component. Either way, this will be the main component for distribution so add your logic to this file entry point in the `src/lib` directory.
 
 ### Component Functionality
 
@@ -74,7 +74,7 @@ It's recommended that you change the following fields:
 | `name`         | The name of the package.                  |
 | `version`      | The package version.                      |
 | `description`  | Short description of the package.         |
-| `main`         | Primary entry point to the package.   |
+| `source`       | Path to the primary entry point of the package.   |
 | `types`        | Path to compiled TypeScript definitions.  |
 | `author`       | Package author.                           |
 | `keywords`     | Help people discover the package.         |

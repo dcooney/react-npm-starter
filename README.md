@@ -1,8 +1,8 @@
 # React NPM Starter
 
-A starter project for publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
+A starter project for rapidly publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
 
-Publishing packages on npm can  be time-consuming and confusing. This starter is intended to help streamline package development by bundling the dependencies you need to start publishing packages into a single resource.
+Publishing packages on npm can be time-consuming and confusing. This starter is intended to help streamline package development by bundling the dependencies you need to start publishing packages into a single resource.
 
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Tailwind CSS](https://tailwindcss.com/) for rapid development. [Microbundle](https://github.com/developit/microbundle) is used for code bundling prior to distribution on npm.
 
@@ -36,11 +36,19 @@ From the project directory, you can run the following scripts with `npm` or `yar
 | `npm run build`       | Builds a production version of the package to the `dist` folder with [Microbundle](https://github.com/developit/microbundle).  |
 | `npm run build:docs`  | Builds the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).      |
 
+## Directory Structure
+
+| Folder     | Description                |
+|----------- |--------------------------- |
+| `src`      | Demo app source files.     |
+| `src/lib`  | All package source files.  |
+| `public`   | Local website frontend.    |
+
 ## Getting Started
 
 After the project setup is complete, it's time to select a package name and start developing the package.
 
-Note: Package source files are located in the `src/lib` directory.
+**Note**: Package source files are located in the `src/lib` directory.
 
 ### Package Naming
 
@@ -51,21 +59,23 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 1. Select a different name for the component.
 2. Publish as a [Scoped Package](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages).
 
-### Example Component
+### Example
 
-In the `src/lib` directory of the project is an example component. This is the component we intend to distribute on npm, which happens to be a simple HTML button component.
+In the `src/lib` directory of the project is an `Example` component. This is the component we intend to distribute as a package on npm, which happens to be a simple HTML button component.
 
-You can rename this component or create an entirely new component. Either way, this will be the main component used for distribution so add your component logic to this entry point.
+Go ahead and rename this component or create an entirely new component. Either way, this will be the main component used for distribution so add component logic and functions to this entry point.
 
-### Component Functionality
+#### Testing
 
-The `App.tsx` component found in the root of the `src` directory is the file we are using for testing the functionality of the distributed package. You will notice that we are importing the `Example` component from the `libs` directory and passing various props to the component.
+The `App.tsx` file found in the root of the `src` directory is used for testing the functionality of the distributed component/package.
 
-Use this file and import your component for testing when runing the local development server.
+Modify this file to import your component as you would any other React component.
+
+Read more about [Package Testing](https://github.com/dcooney/react-npm-starter/wiki/Testing).
 
 ### Package.json
 
-The next step is to update the project config found in `package.json` to reference your project specifics.
+Update the project config found in `package.json` to reference your project specifics.
 
 At minimum you must update the following fields:
 
@@ -81,6 +91,12 @@ At minimum you must update the following fields:
 | `repository`   | GIT repository where the code lives.  |
 | `bugs`         | URL to the project's issue tracker.       |
 
+## Compile Package
+
+When your ready to begin [testing the distrubuted package](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to being fully testing the implementation.
+
+**Note**: The `dist` directory is not comitted to the GIT repo.
+
 ## Publish Package to NPM
 
 Publishing your public or private package is as easy as running the `npm publish` command, however, before you can do so you'll need to sign up for an [npm account](https://www.npmjs.com/signup).
@@ -93,7 +109,7 @@ Here are a few links to read through before publishing your package.
 
 ## Helpful Links
 
-- [Component Testing](https://github.com/dcooney/react-npm-starter/wiki/Testing)
+- [Package Testing](https://github.com/dcooney/react-npm-starter/wiki/Testing)
 
 ## Contributing
 

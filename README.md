@@ -36,7 +36,7 @@ From the project directory, you can run the following scripts with `npm` or `yar
 | `npm run build`       | Builds a production version of the package to the `dist` folder with [Microbundle](https://github.com/developit/microbundle).  |
 | `npm run build:docs`  | Builds the demo app to the `docs` folder for deployment to [Github Pages](https://pages.github.com/).      |
 
-## Directory Structure
+## Project Directory Structure
 
 | Folder     | Description                |
 |----------- |--------------------------- |

@@ -59,7 +59,9 @@ Go ahead and rename this component or create an entirely new component. This wil
 
 #### Testing
 
-With the local development server running, locate the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
+With the local development server running, locate the `App.tsx` file found in the root of the `src` directory.
+
+Modify `App.tsx` accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
 
 Read more about [Package Testing](#compiling) below.
 

@@ -30,8 +30,8 @@ npm run start
 
 From the project directory, you can run the following scripts with `npm` or `yarn`.
 
-| Script                 | Usage                                                                                                                          |
-|----------------------: |------------------------------------------------------------------------------------------------------------------------------- |
+| Script                 |  Usage                                                                                                                          |
+|----------------------: | :------------------------------------------------------------------------------------------------------------------------------- |
 | `npm run start`        | Runs the demo app in development mode @ [http://localhost:3000](http://localhost:3000).      |
 | `npm run build`        | Builds a production version of the package to the `dist` directory with [Microbundle](https://github.com/developit/microbundle).  |
 | `npm run build:docs`   | Builds the demo app to the `docs` directory for deployment to [Github Pages](https://pages.github.com/).      |
@@ -39,7 +39,7 @@ From the project directory, you can run the following scripts with `npm` or `yar
 ## Project Directory Structure
 
 | Folder      | Description                |
-|-----------: |--------------------------- |
+|-----------: |:--------------------------- |
 | `src`       | Demo app source files.     |
 | `src/lib`   | All package source files.  |
 | `public`    | Local website frontend.    |
@@ -79,17 +79,17 @@ Update the project config found in `package.json` to reference your project spec
 
 At minimum you must update the following fields:
 
-| Field          | Description                               |
-|--------------: |------------------------------------------ |
-| `name`         | The name of the package.                  |
-| `version`      | The package version.                      |
-| `description`  | Short description of the package.         |
+| Field          | Description                                |
+|--------------: |:------------------------------------------ |
+| `name`         | The name of the package.                   |
+| `version`      | The package version.                       |
+| `description`  | Short description of the package.          |
 | `source`       | Path to the primary entry point of the package.   |
-| `types`        | Path to compiled TypeScript definitions.  |
-| `author`       | Package author.                           |
-| `keywords`     | Help people discover the package.         |
-| `repository`   | GIT repository where the code lives.  |
-| `bugs`         | URL to the project's issue tracker.       |
+| `types`        | Path to compiled TypeScript definitions.   |
+| `author`       | Package author.                            |
+| `keywords`     | Help people discover the package.          |
+| `repository`   | GIT repository where the code lives.       |
+| `bugs`         | URL to the project's issue tracker.        |
 
 ## Compile Package
 

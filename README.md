@@ -89,9 +89,7 @@ At minimum you must update the following fields:
 
 ## Compiling
 
-When your ready to [test the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to begin testing the implementation.
-
-[Microbundle](https://github.com/developit/microbundle) is used for code bundling when running a `build`.
+When your ready to [test the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package with [Microbundle](https://github.com/developit/microbundle) to the `dist` directory. This will allow you to import the package into another project to begin testing the implementation.
 
 &rarr; [Testing Wiki](https://github.com/dcooney/react-npm-starter/wiki/Testing)
 

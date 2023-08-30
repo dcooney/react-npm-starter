@@ -61,7 +61,11 @@ Go ahead and rename this component or create an entirely new component. This wil
 
 Testing your package locally involves importing the component directly into the demo application.
 
-With the local development server running, open the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
+With the local development server running:
+
+1. Open the `App.tsx` file found in the root of the `src` directory.
+2. Import the component as you would any other React component.
+3. Continue building out the package until the functionality is working as expected.
 
 Read more about [Package Testing](#compiling) below.
 

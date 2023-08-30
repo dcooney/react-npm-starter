@@ -53,17 +53,17 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 
 ### Example Package
 
-In the `src/lib` directory of the project is the `Example` component that is included with this starter. This component is a simple HTML button component that is intended to be distributed as a package on npm.
+In the `src/lib` directory of the project is an `Example` component that is included with this starter. The `Example` component is a simple HTML button that is intended to be distributed as a package on npm.
 
-Go ahead and rename this component or create an entirely new component. This will be the main component used for distribution so add component logic and functionality to this entry point.
+Go ahead and rename this component or create an entirely new component. This will be the main component used for distribution, so add all the component logic and functionality to this entry point.
 
 #### Testing
 
 The `App.tsx` file found in the root of the `src` directory is used for testing the functionality of the distributed component/package.
 
-Modify this file to import your component as you would any other React component.
+Modify this file to import your component as you would any other React component and continue building out the package.
 
-Read more about [Package Testing](#compile-package) below.
+Read more about [Package Testing](#compiling) below.
 
 ### Package.json
 
@@ -83,9 +83,9 @@ At minimum you must update the following fields:
 | `repository`   | GIT repository where the code lives.       |
 | `bugs`         | URL to the project issue tracker.          |
 
-## Compile Package
+## Compiling
 
-When your ready to begin [testing the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to begin fully testing the implementation.
+When your ready to [test the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package to the `dist` directory. This will allow you to import the package into another project to begin testing the implementation.
 
 [Microbundle](https://github.com/developit/microbundle) is used for code bundling when running a `build`.
 

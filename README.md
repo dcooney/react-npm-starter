@@ -30,19 +30,19 @@ npm run start
 
 From the project directory, you can run the following scripts with `npm` or `yarn`.
 
-| Script                | Usage                                                                                                                          |
-|---------------------- |------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run start`       | Runs the demo app in development mode @ [http://localhost:3000](http://localhost:3000).      |
-| `npm run build`       | Builds a production version of the package to the `dist` directory with [Microbundle](https://github.com/developit/microbundle).  |
-| `npm run build:docs`  | Builds the demo app to the `docs` directory for deployment to [Github Pages](https://pages.github.com/).      |
+| Script                 | Usage                                                                                                                          |
+|----------------------: |------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run start`        | Runs the demo app in development mode @ [http://localhost:3000](http://localhost:3000).      |
+| `npm run build`        | Builds a production version of the package to the `dist` directory with [Microbundle](https://github.com/developit/microbundle).  |
+| `npm run build:docs`   | Builds the demo app to the `docs` directory for deployment to [Github Pages](https://pages.github.com/).      |
 
 ## Project Directory Structure
 
-| Folder     | Description                |
-|----------- |--------------------------- |
-| `src`      | Demo app source files.     |
-| `src/lib`  | All package source files.  |
-| `public`   | Local website frontend.    |
+| Folder      | Description                |
+|-----------: |--------------------------- |
+| `src`       | Demo app source files.     |
+| `src/lib`   | All package source files.  |
+| `public`    | Local website frontend.    |
 
 ## Getting Started
 

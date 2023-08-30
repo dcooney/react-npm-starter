@@ -32,7 +32,7 @@ From the project directory, you can run the following scripts with `npm` or `yar
 
 | Script                 |  Usage                                                                                                                          |
 |----------------------: | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run start`        | Runs the demo app in development mode @ [http://localhost:3000](http://localhost:3000).      |
+| `npm run start`        | Starts the demo app in development mode @ [http://localhost:3000](http://localhost:3000).      |
 | `npm run build`        | Builds a production version of the package to the `dist` directory with [Microbundle](https://github.com/developit/microbundle).  |
 | `npm run build:docs`   | Builds the demo app to the `docs` directory for deployment to [Github Pages](<https://pages.github.c>
 

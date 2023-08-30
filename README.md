@@ -63,7 +63,7 @@ Testing your package locally involves importing the component directly into the 
 
 With the local development server running, open the `App.tsx` file found in the root of the `src` directory. Modify this file accordingly to import the component as you would any other React component and then continue building out the package until the functionality is working as expected.
 
-Distrubuted npm packages require futher, more robust testing, so read more about [Package Testing](#compiling) below.
+Read more about [Package Testing](#compiling) below.
 
 ### Package.json
 

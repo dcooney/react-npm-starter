@@ -40,9 +40,11 @@ From the project directory, you can run the following scripts with `npm` or `yar
 
 After the project setup is complete, it's time to select a package name and start developing the package.
 
+Note: Package source files are located in the `src/lib` directory.
+
 ### Package Naming
 
-The first thing you to do is to choose a **unique** name for the package.
+The first thing to do is to choose a **unique** name for the package.
 
 Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there isn't an exact match to the name you intend to use or you will need to do one of the following:
 
@@ -53,21 +55,19 @@ Go to the [NPM registry](https://www.npmjs.com/) and run a search. Be sure there
 
 In the `src/lib` directory of the project is an example component. This is the component we intend to distribute on npm, which happens to be a simple HTML button component.
 
-You can rename this component or create an entirely new component. Either way, this will be the main component for distribution so add your logic to this file entry point in the `src/lib` directory.
+You can rename this component or create an entirely new component. Either way, this will be the main component used for distribution so add your component logic to this entry point.
 
 ### Component Functionality
 
-Locate the `App.tsx` component found in the root of the `src` directory. This is the file we are using for testing the functionality of the distributed package.
+The `App.tsx` component found in the root of the `src` directory is the file we are using for testing the functionality of the distributed package. You will notice that we are importing the `Example` component from the `libs` directory and passing various props to the component.
 
-You will notice that we are importing the `Example` component and passing various props to the component.
-
-Use this as the package demo and import your component/package into this file for testing.
+Use this file and import your component for testing when runing the local development server.
 
 ### Package.json
 
-The next step is to update the project config found in `package.json` to reference your specific project.
+The next step is to update the project config found in `package.json` to reference your project specifics.
 
-It's recommended that you change the following fields:
+At minimum you must update the following fields:
 
 |         Field  | Description                               |
 |--------------: |------------------------------------------ |

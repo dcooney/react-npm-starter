@@ -4,10 +4,10 @@
   "description": "A starter project for publishing NPM packages with React and Typescript.",
   "homepage": "https://dcooney.github.io/react-npm-starter/",
   "source": "src/lib/Example.tsx",
+  "types": "dist/lib/Example.d.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
-  "types": "dist/lib/example.d.ts",
   "overrides": {
     "typescript": "^5.2.2"
   },

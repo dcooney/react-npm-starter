@@ -28,7 +28,7 @@ npm run start
 
 ### Reset GIT History
 
-After cloning the project, you'll want to clear the GIT history.
+After cloning, you'll want to clear the GIT history otherwise your project will contain the history from this repo.
 
 ```bash
 rm -rf .git

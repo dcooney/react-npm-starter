@@ -1,4 +1,4 @@
-# React NPM Starter
+# React NPM Starter Project
 
 A starter project for rapidly publishing [npm](https://www.npmjs.com/) packages with React and TypeScript.
 

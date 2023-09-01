@@ -26,6 +26,18 @@ Start the local development server at http://localhost:3000
 npm run start
 ```
 
+### Reset GIT History
+
+After cloning the project, you'll want to clear the GIT history.
+
+```bash
+rm -rf .git
+git init
+git add .
+git commit -m "setup project"
+
+```
+
 ## Available Scripts
 
 From the project directory, you can run the following scripts with `npm` or `yarn`.

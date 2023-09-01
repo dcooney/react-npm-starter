@@ -1,6 +1,6 @@
 # React NPM Starter Project
 
-A starter project for rapidly publishing [npm](https://www.npmjs.com/) packages with React and TypeScript.
+A starter project (or boilerplate) for rapidly publishing [npm](https://www.npmjs.com/) packages with React and TypeScript.
 
 This project is intended to help streamline individual package development by bundling the dependencies required to start publishing packages into a single resource.
 

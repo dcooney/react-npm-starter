@@ -20,7 +20,7 @@ Install the project dependencies with `npm` or `yarn`.
 npm install
 ```
 
-Start the local development server.
+Start the local development server at http://localhost:3000
 
 ```bash
 npm run start

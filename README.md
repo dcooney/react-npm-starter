@@ -1,6 +1,6 @@
 # React NPM Starter
 
-A starter project for rapidly publishing [npm](https://www.npmjs.com/) packages with React and Typescript.
+A starter project for rapidly publishing [npm](https://www.npmjs.com/) packages with React and TypeScript.
 
 This project is intended to help streamline individual package development by bundling the dependencies required to start publishing packages into a single resource.
 
@@ -73,7 +73,7 @@ Read more about [Package Testing](#compiling) below.
 
 Update the project config found in `package.json` to reference your project specifics.
 
-At minimum you must update the following fields:
+At a minimum, you must update the following fields:
 
 | Field          | Description                                |
 |--------------: |:------------------------------------------ |
@@ -89,11 +89,11 @@ At minimum you must update the following fields:
 
 ## Compiling
 
-When your ready to [test the package for distrubution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package with [Microbundle](https://github.com/developit/microbundle) to the `dist` directory. This will allow you to import the package into another project to begin testing the implementation.
+When you're ready to [test the package for distribution](https://github.com/dcooney/react-npm-starter/wiki/Testing), run `npm run build` to create a production version of the package with [Microbundle](https://github.com/developit/microbundle) to the `dist` directory. This will allow you to import the package into another project to begin testing the implementation.
 
 &rarr; [Testing Wiki](https://github.com/dcooney/react-npm-starter/wiki/Testing)
 
-**Note**: The `dist` directory is not comitted to the GIT repo.
+**Note**: The `dist` directory is not committed to the GIT repo.
 
 ## Publish Package to NPM
 
